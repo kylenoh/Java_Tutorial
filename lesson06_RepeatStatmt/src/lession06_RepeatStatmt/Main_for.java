@@ -7,8 +7,11 @@ public class Main_for {
 		for (int i = 0; i < args.length; i++) {
 			
 		}
-		
-		
+		String[]stringArray = {"Hello","Java","World"};
+//		for 문 Version2	변수 : 변수의크기만큼 반복시킵니다.
+		for (String j : stringArray) {
+			System.out.println(j);
+		}
 /////////////////////////////////////////////////////////////////////////////////////
 		// *****
 		// *****
